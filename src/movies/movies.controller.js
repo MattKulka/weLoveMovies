@@ -33,6 +33,7 @@ async function listMovieReviews(req, res, next) {
 }
 
 async function list(req, res, next) {
+
   // Accessing query parameter
   const movieIsShowing = req.query.is_showing;
   // If query parameter, 'is_showing', is present and true, will only list movies that are currently showing in theaters

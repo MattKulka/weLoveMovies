@@ -13,8 +13,14 @@ router
   .get(controller.listTheatersShowingMovie)
   .all(methodNotAllowed);
 
-router.route("/:movieId([0-9]+)").get(controller.read).all(methodNotAllowed);
+router
+  .route("/:movieId([0-9]+)")
+  .get(controller.read)
+  .all(methodNotAllowed);
 
-router.route("/").get(controller.list).all(methodNotAllowed);
+router
+  .route("/")
+  .get(controller.list)
+  .all(methodNotAllowed);
 
 module.exports = router;

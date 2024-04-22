@@ -1,6 +1,6 @@
 # WeLoveMovies Backend & API
 
-- [Link](https://movie-frontend-bnfp.onrender.com/)
+- [Live Link](https://movie-frontend-bnfp.onrender.com/)  (Please allow time for data to populate)
 
 The backend and API of WeLoveMovies facilitates storage and delivery of WeLoveMovies' movies, theaters, and reviews data. 
 
